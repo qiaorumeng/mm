@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="libs/jquery-1.11.3.js"></script>
+		<script src="libs/jquery.cookie.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/goods1.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/public.js"></script>
+	</head>
+	<body> 
+		<!--头部-->
+   <!--顶部top-->
+		<div id="header">
+		<div class="wrap">
+		<!--top左-->
+		<div class="fl">
+			<ul class="fl">
+                    <li>欢迎光临易果生鲜！</li>
+                    <li class="city">
+                        <div class="city-sz">配送至：</div>
+                        <div class="city-tit">
+                            <a  class="city-name" href="javascript:void(0)">上海<s></s></a>
+                        </div>
+                                <!--送货城市-->
+<div class="city-con" id="citylist">
+    <div class="headline">
+        <a href="javascript:;">全国其它城市&gt;&gt;</a> 请根据您的收货地址选择
+    </div>
+    <div class="city-hot">
+        <span><i></i>热门城市</span>
+        <a href="javascript:;" class="_selected">上海</a>
+        <a href="javascript:;" class="">北京</a>
+        <a href="javascript:;" class="">天津</a>
+        <a href="javascript:;" class="">南京市</a>
+        <a href="javascript:;" class="">苏州市</a>
+        <a href="javascript:;" class="">无锡市</a>
+        <a href="javascript:;" class="">杭州市</a>
+        <a href="javascript:;" class="">宁波市</a>
+    </div>
+    <div class="city-hot-tab">
+    	<div class="citylist-tab"></div></div>
+    	<p class="citytab"><span class="active">ABCDE</span><span class="">FGHIJ</span><span class="">KLMNO</span><span class="">PQRST</span><span class="">UVWXYZ</span></p>
+		<div class="citylist"></div>
+</div>
+                    </li>
+            </ul>
+		</div>
+		<!--top右-->
+        <ul class="fr">
+       		<li class="TEL"><a rel="nofollow" href="#" target="_blank"><i></i>提货券入口</a></li> 
+            <li class="pay"><a rel="nofollow" href="#" target="_blank"><i></i>储值卡</a></li>
+			<li class="mobile">
+                        <div class="tit"><a href="#"><i></i>手机易果<s></s></a></div>
+                        <div class="con">
+                            <div class="item"><img src="img/top/qrcode_app.jpg" width="125" height="125"><span>扫一扫下载APP</span></div>
+                            <div class="item"><img src="img/top/qrcode_wechat.jpg" width="125" height="125"><span>易果生鲜微信</span></div>
+                        </div>
+                  </li>
+                   </script>
+            <li class="myWorld">
+                        <div class="tit"><a  href="#" target="_blank"><i></i>我的易果<s></s></a></div>
+                        <div class="con">
+                            <a  href="#">我的订单</a>
+                            <a  href="#">我的优惠券<b id="coupon">0</b></a>
+                            <a  href="#">我的收藏</a>
+                            <a  href="#">我的悠币</a>
+                            <a  href="#">我的退换货</a>
+                            <a  href="#">预存款查询</a>
+                            <a  href="#">立即充值</a>
+                            <a  href="#" class="logout" style="display:none;">退出</a>
+                        </div>
+            		</li>
+            <li id="_logout" style="display:none"><a href="index.html" class="logout">[退出]</a></li>
+            <li id="_loginname" style="display:none"><a href="javascript:;"></a></li>
+            <li id="_register" style="display:none"><a href="register.html">[注册]</a></li>
+            <li id="_login" style="display:none">
+                        <a rel="nofollow" href="login.html">[登录]</a>
+                    </li>
+               </ul>
+    </div>
+    </div>
+    	<!--吸顶-->
+   <div class="inTop">
+    <div class="wrap">
+	<div class="logo">
+		<a href="index.html"></a>
+	</div>
+	<!--搜索 开始-->
+	<div class="search" style="position:relative;">
+		<div class="search-bar">
+			<input type="text" id="keyword" name="keyword" class="search-input" value="输入商品名／编号／拼音" onfocus=" if (this.value == '输入商品名／编号／拼音') {this.value = '';this.style.color = '#000';} " onblur=" if (this.value == '') {this.value = '输入商品名／编号／拼音';this.style.color = '#999';} " style="color: rgb(153, 153, 153);">
+			<input class="search-btn" type="submit" style="position: relative;" value="搜索">
+			<div class="keyword"> 
+			</div>
+		</div>
+		<ul class="hide" id="shelper" style="display: none;"></ul>
+		<div class="search-keywords" id="keywords">
+			<a href="#" class="hot" target="_blank">奇异果</a>
+			<a href="#" target="_blank">芒果</a>
+			<a href="#" class="hot" target="_blank">樱桃</a>
+		</div>
+	</div>
+	<!--购物车 开始-->
+	<div class="shopping-cart">
+		<dl>
+			<dt class="shopping-btn"><a href="cart.html"> <span class="totleNum"><b>0</b></span><b class="totlePrice">0.0</b></a></dt>
+			<dd class="shopping-list">
+				<div class="spacer"></div>
+				<div class="nogoods" style="display:none;">
+					购物车中还没有商品，赶紧选购吧！
+				</div>
+				<div class="goods">
+					<ul></ul>
+					<div class="price-total">
+						<div><span class="totleNum">共<b>0</b>件商品</span><span>共计<b class="totlePrice">¥0.00</b></span></div>
+						<div>
+							<a href="cart.html" class="settleup">去购物车</a>
+						</div>
+					</div>
+				</div>
+			</dd>
+		</dl>
+	</div>
+	<!--购物车 结束-->
+</div>
+</div>
+<!--商品列表-->
+<div class="list-nav">
+    <div class="wrap">
+        <!--商品分类 开始-->
+        <div class="catalogs">      
+            <div class="catalogs-title"><a href="#">全部商品分类▼</a></div>
+            <ul class="catalogs-list">
+             
+            </ul>
+        </div>               
+        <!--商品分类 结束-->
+    </div>
+</div>
+<!--轮播图-->
+	<div id="banner">
+		<div class="con">
+			<p class="l22"></p>
+				<p class="r22"></p>
+			</div>	
+		<ul class="content">
+			 <li><img src="img/banner/ban1.jpg" class="img" style="z-index: 1;"/><img src="img/banner/bg1.png" class="word" style="z-index: 2;display: block;"/></li>
+			 <li ><img src="img/banner/ban2.jpg" class="img" /><img src="img/banner/bg2.png" class="word" /></li>
+			 <li ><img src="img/banner/ban3.jpg" class="img" /><img src="img/banner/bg3.png" class="word" /></li>
+			 <li ><img src="img/banner/ban4.jpg" class="img" /><img src="img/banner/bg4.png" class="word" /></li>
+			 <li ><img src="img/banner/ban5.jpg" class="img" /><img src="img/banner/bg5.png" class="word" /></li>
+		</ul>
+		<p id="page">
+				<span class="active"></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</p>
+	</div>
+	<!--楼层-->
+	<div id="floor">
+	</div>
+	<!--楼层引导-->
+	<div class="floor-guide" style="display: none;">
+		<ul class="guide-list">
+			<li class="active"><b style="background-position: 0 0;">&nbsp;</b><em>进口水果</em><i>&nbsp;</i></li>
+			<li><b style="background-position: -40px 0;">&nbsp;</b><em>国产水果</em><i>&nbsp;</i></li>
+			<li><b style="background-position: -80px 0;">&nbsp;</b><em>新鲜蔬菜</em><i>&nbsp;</i></li>
+			<li><b style="background-position: -120px 0;">&nbsp;</b><em>海鲜水产</em><i>&nbsp;</i></li>
+			<li><b style="background-position: -160px 0;">&nbsp;</b><em>精选肉类</em><i>&nbsp;</i></li>
+			<li><b style="background-position: -200px 0;">&nbsp;</b><em>禽类蛋品</em><i>&nbsp;</i></li>
+			<li><b style="background-position: -240px 0;">&nbsp;</b><em>粮油杂货</em><i>&nbsp;</i></li>
+			<li><b style="background-position: -280px 0;">&nbsp;</b><em>乳品糕点</em><i>&nbsp;</i></li>
+			<li><b style="background-position: -320px 0;">&nbsp;</b><em>饮料酒水</em><i>&nbsp;</i></li>
+			<li><b style="background-position: -360px 0;">&nbsp;</b><em>方便速食</em><i>&nbsp;</i></li>
+		</ul>
+</div>
+<div class="footer_service"></div>
+<!--最底部-->
+	<!--页面底部-->
+  <div id="bottom"></div>
+  <!--侧边悬浮框-->
+  <div class="sidebar" id="sidebar">
+            <a href="javascript:void(0);" class="s-btn service"></a>
+            <a href="#body" class="s-btn goTop"></a>
+       </div>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>易果网</title>
+   
+    <link href="css/base.css" rel="stylesheet" type="text/css"/>
+	<link href="css/login.css" rel="stylesheet" type="text/css" />
+    <script src="libs/jquery-1.11.3.js"></script>
+    <script src="libs/jquery.cookie.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/login.js"></script>
+</head>
+
+<body id="body">
+	<!--顶部-->
+<div class="header"></div>
+	<!--登录界面-->
+<div id="login">
+	<div class="wrap">
+		<div class="l1">
+            	<a href='#' target='_blank'>
+            		<img src="img/enter/Etu.jpg"/></a>
+		</div>
+		<div class="r1">
+			<form action="">
+				<div class='top'>
+                <p><strong>欢迎登录</strong><span>还没有账号？<a class="a1" href="register.html">立即注册</a></span></p>
+               </div>     	
+                        <!--错误信息显示区域-->
+                <div id="error-msg"><div> </div></div>
+                <p><input class="input input-phone" placeholder="邮箱/账号/已验证手机" type="text" value="" /></p>
+                <p><input class="input input-key" id="input-key" placeholder="密码" type="password" /></p>
+                <p><input class="input input-key" id="VerifyCode" name="VerifyCode" placeholder="验证码" style="width:100px" type="text" value="" /><b class="yzm"></b><a href="#" id="chyzm"  class="a1">换一张</a></p>
+                <p><label><input class="input-choose" type="checkbox" value="true" />自动登录</label><span> <a class="a2" href="#">忘记登录密码？</a>   </span></p>
+                <p><a  href="#" class="enter">登 &nbsp;录</a></p>
+                <p>第三方登录</p>
+                <div><a href="#" class="qq"><i></i></a><a href="#" class="sina"><i></i></a><a href="#" class="ay"><i></i></a></div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--页面底部-->
+  <div id="bottom"></div>     
+</body>
+</html>
+

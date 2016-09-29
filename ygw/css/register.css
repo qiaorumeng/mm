@@ -1,0 +1,40 @@
+/*注册*/
+#register{overflow: hidden;}
+#wrap-tabs{height:44px;margin-top:10px;border-bottom:1px solid #b4c1a3;position: relative;}
+.tabs { padding:0 10px 0 240px;height:44px;width:950px;}
+.tabs li{float:left;margin-right:10px;width:206px;height:45px;margin-bottom:-1px ;}
+.tabs li>a{display:block;font:18px/18px microsoft yahei; color:#606060;height:18px;width:72px;padding:14px 66px 12px;border:solid 1px #b4c1a3;border-bottom:none; }
+.tabs .active{background: #fff url(../img/enter/tab_bg_active.jpg) repeat-x;}
+.tabs .active a:hover{color:#64b22a;}
+#wrap-tabs .right{position: absolute;right:20px;bottom:10px;font-size: 12px;height;12px;width:150px;}
+#wrap-tabs .right>a{text-decoration: underline;color:orange;}
+form{background: #fff;border:1px solid #b4c1a3;border-top:none ;padding:40px 0 50px;overflow: hidden;}
+/*手机注册*/
+#register p{width:712px;height;40px;margin-bottom: 30px;position: relative;}
+#register p:last-child{height:50px;}
+#register p:nth-last-child(0){height:20px;}
+#register p>.info{position: absolute;left:574px;top:15px;}
+#register p .yzm{display: inline-block;height:38px;width:50px;border:solid 1px #c1c1c1;vertical-align: bottom;text-align: center;line-height: 30px;font-size:18px;background:url(../img/enter/yzm.jpg);opacity: 0.8;filter: alpha(opcity=50);}
+#register .addborder{width:868px;border-right:dashed 1px #b4c1a3;}
+.input{margin-right:20px;width:290px;height:38px;border:solid 1px #c1c1c1;padding-left: 14px;}
+input:focus{outline:3px solid #b1d6ff;}
+.input-yzm{width:147px;}
+.a2{color:#64b22a;}
+.btn-yzm{display:inline-block;width:121px;height:38px;border: solid 1px #C1C1C1;background: #f7f7f7;line-height: 38px;text-align: center;cursor: pointer;font-size: 14px;color: #64b22a;margin-right: 20px;}
+.register{width:306px;height:50px;display: inline-block;font-size:18px;line-height: 50px;color:#fff;text-align: center;background: #008842;}
+.register:hover{opacity: 0.8;filter:alpha(opcity=80)}
+.field-name{ display:inline-block; width:220px;height:20px;font-size: 14px; text-align:right; padding-right:20px;}
+.input-phone,.input-key ,.input-email{ background:url(../img/enter/bg_input.png)no-repeat;}
+.input-phone { background-position:276px -30px;}
+.input-email { background-position:276px 10px;}
+.input-key { background-position:276px -70px;}
+.register .fr{ background:url(../Content/img/register_line.jpg) 0 0 repeat-y; height:340px; width:330px; text-align:center; padding-top:50px; font:14px/56px "Microsoft YaHei";}
+#tab1chk{ margin-right:9px; height:14px; width:14px; vertical-align:-1px}
+/*邮箱注册*/
+#email{display: none;}
+/*验证提示样式*/
+.pass-succ i,.pass-tip i,.pass-error i{ display:inline-block;width:17px; height:17px; vertical-align:middle; margin-right:9px;font-size: 14px;}
+.pass-succ i{ background:url(../img/enter/bg_login.png)no-repeat 0 -200px;}
+.pass-tip i{ background:url(../img/enter/bg_login.png)no-repeat -20px -200px;}
+.pass-error i{ background:url(../img/enter/bg_login.png)no-repeat -40px -200px;}
+.pass-error{ color:#f60000}

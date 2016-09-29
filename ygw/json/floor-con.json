@@ -1,0 +1,94 @@
+[{	
+	"name"    : "进口水果",
+	"color"   : "#fc5f3c",
+	"spanCon" : ["进口苹果","佳沛专区","泰国鲜果"],
+	"left"    : "img/floor/floor1-1.jpg",
+	"right"   :["img/floor/floor1-2.jpg","img/floor/floor1-3.jpg","img/floor/floor1-4.jpg","img/floor/floor1-5.jpg","img/floor/floor1-6.jpg","img/floor/floor1-7.jpg"]
+	
+	},
+	{	
+	"name"    : "国产水果",
+	"color"   : "#007fd",
+	"spanCon" : ["芳香四溢","南国风情","精选苹果"],
+	"left"    : "img/floor/floor2-1.jpg",
+	"right"   :["img/floor/floor2-2.jpg","img/floor/floor2-3.jpg","img/floor/floor2-4.jpg","img/floor/floor2-5.jpg","img/floor/floor2-6.jpg","img/floor/floor2-7.jpg"]
+	
+	},
+	{	
+	"name"    : "新鲜蔬菜",
+	"color"   : "#f0c000",
+	"spanCon" : ["即食色拉","人气粗粮","健康有机"],
+	"left"    : "img/floor/floor3-1.jpg",
+	"right"   :["img/floor/floor3-2.jpg","img/floor/floor3-3.jpg","img/floor/floor3-4.jpg","img/floor/floor3-5.jpg","img/floor/floor3-6.jpg","img/floor/floor3-7.jpg"]
+	
+	},
+	{	
+	"name"    : "海鲜水产",
+	"color"   : "#e08686",
+	"spanCon" : ["刺身专区","东海水产","海产干货"],
+	"left"    : "img/floor/floor4-1.jpg",
+	"right"   :["img/floor/floor4-2.jpg","img/floor/floor4-3.jpg","img/floor/floor4-4.jpg","img/floor/floor4-5.jpg","img/floor/floor4-6.jpg","img/floor/floor4-7.jpg"]
+	
+	},
+	{	
+	"name"    : "精选肉类",
+	"color"   : "#45c6ce",
+	"spanCon" : ["欧洲天然住猪","澳洲牛肉","肉类制品"],
+	"left"    : "img/floor/floor5-1.jpg",
+	"right1"  : "img/floor/floor5-2.jpg",
+	"right2"  :  ["img/floor/floor5-3.jpg","img/floor/floor5-4.jpg","img/floor/floor5-5.jpg","img/floor/floor5-6.jpg"],
+	"right3"  :  "img/floor/floor5-7.jpg",
+	"right4"  : ["img/floor/floor5-8.jpg","img/floor/floor5-9.jpg","img/floor/floor5-10.jpg","img/floor/floor5-11.jpg","img/floor/floor5-12.jpg","img/floor/floor5-13.jpg"]
+	},
+	{	
+	"name"    : "禽类蛋品",
+	"color"   : "#764e00",
+	"spanCon" : ["原味蒸品","原汁煲汤","禽类分割品"],
+	"left"    : "img/floor/floor6-1.jpg",
+	"right1"  : "img/floor/floor6-2.jpg",
+	"right2"  :  ["img/floor/floor6-3.jpg","img/floor/floor6-4.jpg","img/floor/floor6-5.jpg","img/floor/floor6-6.jpg"],
+	"right3"  :  "img/floor/floor6-7.jpg",
+	"right4"  : ["img/floor/floor6-8.jpg","img/floor/floor6-9.jpg","img/floor/floor6-10.jpg","img/floor/floor6-11.jpg"]
+	},
+	{	
+	"name"    : "粮食杂货",
+	"color"   : "#bcc251",
+	"spanCon" : ["休闲零食","健康杂粮","进口食用油"],
+	"left"    : "img/floor/floor7-1.jpg",
+	"right1"  : "img/floor/floor7-2.jpg",
+	"right2"  : ["img/floor/floor7-3.jpg","img/floor/floor7-4.jpg"],
+	"right3"  : "img/floor/floor7-5.jpg",
+	"right4"  : ["img/floor/floor7-6.jpg","img/floor/floor7-7.jpg",
+				"img/floor/floor7-8.jpg","img/floor/floor7-9.jpg","img/floor/floor7-10.jpg","img/floor/floor7-11.jpg"]
+	},
+	{	
+	"name"    : "乳品糕点",
+	"color"   : "#3ca3dc",
+	"spanCon" : ["味全乳品","精选蛋糕","try me 小蛋糕"],
+	"left"    : "img/floor/floor8-1.jpg",
+	"right1"  : "img/floor/floor8-2.jpg",
+	"right2"  : ["img/floor/floor8-3.jpg","img/floor/floor8-4.jpg","img/floor/floor8-5.jpg","img/floor/floor8-6.jpg"],
+	"right3"  : "img/floor/floor8-7.jpg",
+	"right4"  : ["img/floor/floor8-8.jpg","img/floor/floor8-9.jpg","img/floor/floor8-10.jpg"]
+	},
+	{	
+	"name"    : "饮料酒水",
+	"color"   : "#684f00",
+	"spanCon" : ["饮用水","果汁","白葡萄酒"],
+	"left"    : "img/floor/floor9-1.jpg",
+	"right1"  : "img/floor/floor9-2.jpg",
+	"right2"  :  ["img/floor/floor9-3.jpg","img/floor/floor9-4.jpg"],
+	"right3"  :  "img/floor/floor9-5.jpg",
+	"right4"  :  ["img/floor/floor9-6.jpg","img/floor/floor9-7.jpg","img/floor/floor9-8.jpg"]
+	},
+	{	
+	"name"    : "方便速食",
+	"color"   : "#940606",
+	"spanCon" : ["避风塘","湾仔码头","龙凤"],
+	"left"    : "img/floor/floor10-1.jpg",
+	"right1"  : "img/floor/floor10-2.jpg",				
+	"right2"  : ["img/floor/floor10-3.jpg","img/floor/floor10-4.jpg","img/floor/floor10-5.jpg","img/floor/floor10-6.jpg"],
+	"right3"  : "img/floor/floor10-7.jpg",
+	"right4"  : ["img/floor/floor10-8.jpg","img/floor/floor10-9.jpg","img/floor/floor10-10.jpg","img/floor/floor10-11.jpg"]
+	}
+]

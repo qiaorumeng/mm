@@ -1,0 +1,4 @@
+/*注册成功*/
+.register-succ{ height:247px; border:1px solid #e3e6e0; border-top:2px solid #70bd2c; background-color:#fcffed; margin-top:80px; color:#58a51f; font:24px/1 "Microsoft YaHei"; text-align:center; padding-top:80px; margin-bottom:60px}
+.register-succ i{ display:inline-block;*display:inline;*zoom:1; width:50px; height:50px; background:url(../img/enter/bg_login.png) -360px -196px no-repeat; margin-right:20px; vertical-align:middle}
+.register-succ a{ display:block; width:127px; height:40px; text-align:center;font: 16px/40px "Microsoft YaHei"; color:#fff; margin:60px auto; background-color:#f14b00; border-radius:3px;}

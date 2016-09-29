@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+/*登录界面*/
+#login{height:452px;padding-top:30px;background: #fff;}
+.wrap .l1{width:666px;float:left;}
+.wrap .l1 a img{margin-top:20px;width:666px;height:418px;display:block;}
+.wrap .r1{margin-top:20px;width:308px;height:382px;padding:30px 20px 20px;border:solid 1px #e3e6e0;float:right;margin-right:105px;}
+.wrap .input{width:254px;height:38px;border:solid 1px #c1c1c1;padding-left:50px;font-size:14px;line-height:38px;}
+.wrap .input:focus{outline: 3px solid #b1d6ff;}
+.wrap .input-phone{background: url(../img/enter/bg_input.png)no-repeat 0px -120px;}
+.wrap .input-key{background: url(../img/enter/bg_input.png)no-repeat 0px -180px;}
+.wrap .input-choose{display: inline-block;margin-right:10px;}
+#login p .yzm{display: inline-block;height:18px;width:40px;border:solid 1px #c1c1c1;vertical-align:inherit;text-align: center;line-height: 23px;font-size:14px;background:url(../img/enter/yzm.jpg);opacity: 0.8;filter: alpha(opcity=50);}
+.r1 .top>p { margin-bottom: 20px; font: 12px Arial, "SimSun"; color: #878787; position: relative; overflow: hidden; }
+.r1 .top>p strong { color: #262626; font: 18px/1 "Microsoft YaHei"; }
+.r1 .top>p span { position: absolute; right: 0; top:0; }
+.r1 p{margin-bottom:20px;}
+.r1 .a1{color:#008842;text-decoration: underline;}	
+.r1 .a2{color:#878787;float:right;}
+.r1 .enter{width:306px;height:50px;display: inline-block;font-size:18px;line-height: 50px;color:#fff;text-align: center;background: #008842;}
+.r1 .enter:hover{opacity: 0.8;filter:alpha(opcity=80)}
+i { display: inline-block;width: 88px; height: 20px;  margin-right: 20px; }
+.r1 .qq i {background:url(../img/enter/bg_login.png) no-repeat -60px -200px; }
+.r1 .sina i { background:url(../img/enter/bg_login.png) no-repeat -160px -200px; }
+.r1 .ay i { background:url(../img/enter/bg_login.png) no-repeat -260px -200px; width: 57px; margin-right: 0; }
+.r1 #error-msg{overflow:hidden;margin: 2px 0px 5px;width:308px; }
+.r1 #error-msg .msg-error{ background: #FFEBEB; border: 1px solid #E4393C; padding: 3px 10px 3px 40px; line-height: 18px;height: 18px; color: #E4393C; }
+
+
+
+
+
+
+
+
+
+
+
