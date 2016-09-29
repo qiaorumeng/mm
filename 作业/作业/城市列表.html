@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			
+		</style>
+		<script type="text/javascript" src="libs/jquery-1.11.3.js"></script>
+		<script>
+		var pro = ["北京","天津","上海","重庆","河北","山西","辽宁","吉林","黑龙江","江苏",
+				"浙江","安徽","福建","江西","山东","河南","湖北"];
+				$(function(){
+				for(var i=0;i<pro.length;i++){
+				$option=$("<option></option>")
+				$option.text(pro[i]);
+				$(".province").append($option);
+				}
+				//创建想对应的城市下拉列表
+				$(".province").change(function(){	
+				var proText=$(".province").find("option:selected").text();
+				var proIndex=$(".province").find("option:selected").index();
+				$.get("area.json",function(res){
+              	//console.log(res);
+                //console.log(res[0].北京);
+				//console.log(proIndex);
+				//console.log(res[proIndex-1][proText]);
+				//创建省份下拉列表
+				var arr = res[proIndex-1][proText];
+				//console.log(arr);
+				$(".city").children().remove();
+				for(var j=0;j<arr.length;j++){
+					$option=$("<option/>");
+					$option.text(arr[j]);
+					$(".city").append($option);
+				}
+				})
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<select class='province'>
+			<option selected="selected">请选择省份</option>
+		</select>
+		<select class="city">
+			<option selected="selected">请选择城市</option>
+		</select>
+	</body>
+</html>
